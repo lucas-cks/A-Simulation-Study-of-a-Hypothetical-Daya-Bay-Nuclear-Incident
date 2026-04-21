@@ -45,7 +45,13 @@ Key processes:
 - Thermal circulation — diurnal mountain–valley breeze profile.
 - Stochastic turbulence — simple LCG-based perturbations added to advection for subgrid variability.
 
-The numerical scheme is Forward-in-Time, Upwind-in-Space (FTUS) with diffusion terms handled appropriately. Time step and grid spacing are chosen to satisfy CFL and diffusion stability criteria.
+**Mathematical Implementation**
+The simulation utilizes a Finite Difference Method with a Forward in Time, Upwind in Space (FTUS) scheme to maintain numerical stability and prevent unphysical negative concentrations.
+
+Stability Criteria:
+The engine strictly adheres to the following conditions to ensure mathematical convergence:
+`1. CFL Condition: $\frac{U \Delta t}{\Delta x} \leq 1$ (Advection stability)
+2. Diffusion Criterion: $\frac{K \Delta t}{\Delta x^2} \leq 0.5$ (Numerical spreading stability)`
 
 [Back to Top](#readme-top)
 

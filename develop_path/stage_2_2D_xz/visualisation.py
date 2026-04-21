@@ -9,7 +9,7 @@ z = np.linspace(0, LZ/1000.0, NZ)
 
 # Debug: Check file exists
 if not os.path.exists('output_xz.bin'):
-    print("ERROR: output_xz.bin not found!")
+    print("ERROR: output_xz.bin not found")
     exit(1)
 
 data = np.fromfile('output_xz.bin', dtype=np.float64)

@@ -215,6 +215,6 @@ For questions, suggestions, or collaboration, please open an issue on this repos
 
 **Ching Kai Sing, Lucas**  
 Department of Physics, The Chinese University of Hong Kong  
-Project link: https://github.com/lucas-cks/A-Simulation-Study-of-a-Hypothetical-Daya-Bay-Nuclear-Incident
+Project link: [https://github.com/lucas-cks/Daya-Bay-Nuclear-Dispersion-Model](https://github.com/lucas-cks/Daya-Bay-Nuclear-Dispersion-Model)
 
 [Back to Top](#readme-top)

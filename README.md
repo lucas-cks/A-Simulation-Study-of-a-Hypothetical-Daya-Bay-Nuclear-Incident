@@ -14,6 +14,9 @@
 ![NumPy](https://img.shields.io/badge/Library-NumPy-013243?logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-ffffff?logo=matplotlib&logoColor=black)
 ![Cartopy](https://img.shields.io/badge/Library-Cartopy-4CAF50?logo=python)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-lightgrey?logo=python) 
+![math](https://img.shields.io/badge/Library-math-blue?logo=python)
+![os](https://img.shields.io/badge/Library-os-green?logo=python) 
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -50,8 +53,8 @@ The simulation utilizes a Finite Difference Method with a Forward in Time, Upwin
 
 Stability Criteria:
 The engine strictly adheres to the following conditions to ensure mathematical convergence:
-`1. CFL Condition: $\frac{U \Delta t}{\Delta x} \leq 1$ (Advection stability)
-2. Diffusion Criterion: $\frac{K \Delta t}{\Delta x^2} \leq 0.5$ (Numerical spreading stability)`
+1. CFL Condition: $$\frac{U \Delta t}{\Delta x} \leq 1$$ (Advection stability)
+2. Diffusion Criterion: $$\frac{K \Delta t}{\Delta x^2} \leq 0.5$$ (Numerical spreading stability)
 
 [Back to Top](#readme-top)
 

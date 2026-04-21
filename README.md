@@ -1,5 +1,5 @@
-# Daya Bay Nuclear Accident Plume Simulation
-**Atmospheric Transport of Radioactive Materials – A 3D Eulerian Dispersion Model**
+# Atmospheric Transport of Radioactive Materials
+**A Simulation Study of a Hypothetical Daya Bay Nuclear Incident**
 
 **Author:** Ching Kai Sing, Lucas  
 

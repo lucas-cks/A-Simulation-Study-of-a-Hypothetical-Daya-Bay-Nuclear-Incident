@@ -82,9 +82,9 @@ A-Simulation-Study-of-a-Hypothetical-Daya-Bay-Nuclear-Incident/
 │   ├── daya_bay.py                # Pure Python GUI (matplotlib + tkinter)
 │   ├── terrain.bin                # Copy of terrain data used by Python version
 │   └── terrain_bounds.txt
-├── develop_path/                  # development notes / scripts
+├── develop_path/                  # Stages of development
 ├── LICENSE                        # MIT License
-└── README.md                      # This file
+└── README.md                     
 ```
 
 [Back to Top](#readme-top)
@@ -196,10 +196,7 @@ Numerical stability checks (example configuration):
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## 11. References
-1. Turner, D. B. (1994). *Workbook of Atmospheric Dispersion Estimates*. CRC Press.
-2. Venkatram, A., & Wyngaard, J. C. (1988). *Lectures on Air Pollution Modeling*. AMS.
-3. USGS EarthExplorer – Terrain data (SRTM 1 arc-second) for the study region.
-4. Numerical methods references and atmospheric dispersion literature.
+1. USGS EarthExplorer – Terrain data (SRTM 1 arc-second) for the study region.
 
 ## 12. Contact
 For questions, suggestions, or collaboration, please open an issue on this repository or contact the author.

@@ -1,4 +1,4 @@
-// plume_3d_step.c - constant wind, symmetric x/y
+// plume_3d.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

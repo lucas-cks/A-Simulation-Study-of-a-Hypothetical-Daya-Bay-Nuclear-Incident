@@ -1,5 +1,5 @@
 // Daya Bay HK Simulation - C implementation of a 3D atmospheric dispersion model with terrain and wet deposition
-// gcc -shared -fopenmp -static -O2 -o libplume.dll Daya_Bay_HK_Simulation.c -lm
+// gcc -shared -fopenmp -static -O2 -o libplume.dll daya_bay_HK_simulation.c -lm
 
 #include <stdio.h>
 #include <stdlib.h>
